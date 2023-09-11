@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="commonstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo flt-lft wid-25">
+          <h1>
+            <span>E</span>
+            <span>Comm</span>
+          </h1>
+        </div>
+        <div class="search-box flt-lft wid-50">
+          <input type="text" placeholder="Search For Product" />
+          <button><i class="fa-solid fa-magnifying-glass" style="cursor: pointer;"></i></button>
+        </div>
+        <div class="selected-prod flt-lft wid-25">
+          <button class="cart-btn">
+            <span><i class="fa-solid fa-cart-arrow-down"></i> 0</span>
+          </button>
+          <button class="cart-btn">
+            <span><i class="fa-regular fa-heart"></i> 0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="banner-wrapper">
+      <div class="wrapper clr-bth">
+        <div class="banner wid-25 flt-lft">
+          <div class="list-header">
+            <h4 class="categories">categories</h4>
+            <span>
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </div>
+          <ul class="categories-list">
+            <li><a href="#">Shirt</a></li>
+            <li><a href="#">T-Shirt</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Trouser</a></li>
+            <li><a href="#">Toys</a></li>
+          </ul>
+        </div>
+        <div class="wid-75 flt-lft">
+          <div class="main-menu ">
+            <ul class="left-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li class="drpdwn-head">
+                <a href="#"
+                  >Product Detalis
+                  <i id="arrow" class="fa-solid fa-angle-down arrow"></i
+                ></a>
+                <ul class="drpdwn-sub">
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">CheckOut</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="right-menu">
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+          <div class="banner">
+            <img src="img/image.jpg" alt="banner" />
+            <div class="banner-text">
+              <h3>2o% off on your first order</h3>
+              <h2>fashionable dress</h2>
+              <a class="text">Show Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="wid-25 flt-lft">
+          <div class="features">
+            <span class="wrp-icon">
+              <i class="fa-solid fa-check"></i>
+              <span>Quality Products</span>
+            </span>
+          </div>
+        </div>
+        <div class="wid-25 flt-lft">
+          <div class="features">
+            <span class="wrp-icon">
+              <i class="fa-solid fa-shipping-fast"></i>
+              <span>Free Shipping</span>
+            </span>
+          </div>
+        </div>
+        <div class="features-box wid-25 flt-lft">
+          <div class="features">
+            <span class="wrp-icon">
+              <i class="fa-solid fa-exchange"></i>
+              <span>30 Days return</span>
+            </span>
+          </div>
+        </div>
+        <div class="wid-25 flt-lft">
+          <div class="features">
+            <span class="wrp-icon">
+              <i class="fa-solid fa-phone"></i>
+              <span>24/7 Support</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper clr-bth">
+        <div class="wid-33 flt-lft">
+          <div class="category-items">
+            <p class="product-count">
+              20 products
+            </p>
+            <span class="product-img">
+              <img src="img/item1.jpg" alt="">
+            </span>
+            <p class="category-type">
+              Mens wears
+            </p>
+          </div>
+        </div>
+        <div class="wid-33 flt-lft">
+          <div class="category-items">
+            <p class="product-count">
+              27 products
+            </p>
+            <span class="product-img">
+              <img src="img/item2.jpg" alt="">
+            </span>
+            <p class="category-type">
+              Womens wears
+            </p>
+          </div>
+        </div>
+        <div class="wid-33 flt-lft">
+          <div class="category-items">
+            <p class="product-count">
+              24 products
+            </p>
+            <span class="product-img">
+              <img src="img/item3.jpg" alt="">
+            </span>
+            <p class="category-type">
+              Kids wears
+            </p>
+          </div>
+        </div>
+        <div class="wrapper clr-bth">
+          <div class="wid-50 flt-lft">
+            <div class="offer-banner discount">
+              <img src="img/off1.jpg" alt="img">
+              <div class="offer-text">
+                <h3>45% off on your favourite collection</h3>
+                <h4>Mens Wears</h4>
+                <button>Shop Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="wid-50 flt-lft">
+            <div class="offer-banner off">
+              <img src="img/off2.png" alt="image">
+              <div class="offer-text">
+                <h3>summer season sale 50% off</h3>
+                <h4>Summer Wears</h4>
+                <button>Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper clr-bth">
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod1.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Shirt</h5>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$153.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod1.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Shirt</h5>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$153.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod1.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Shirt</h5>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$153.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod1.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Shirt</h5>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$153.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod1.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Shirt</h5>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$153.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod2.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Womens Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$129.00</h6>
+                  <h6 class="last">$149.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod2.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Womens Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$129.00</h6>
+                  <h6 class="last">$149.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod2.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Womens Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$129.00</h6>
+                  <h6 class="last">$149.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod2.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Womens Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$129.00</h6>
+                  <h6 class="last">$149.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod2.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Womens Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$129.00</h6>
+                  <h6 class="last">$149.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod3.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Kids Dresses</h5>
+                <div class="cart-price">
+                  <h6 class="current">$89.00</h6>
+                  <h6 class="last">$99.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-25 flt-lft">
+            <div class="cart">
+              <div class="cart-img">
+                <img src="img/prod4.png" alt="">
+              </div>
+              <div class="cart-details">
+                <h5>latest Mens Blazzer</h5>
+                <div class="cart-price">
+                  <h6 class="current">$179.00</h6>
+                  <h6 class="last">$199.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  View Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper clr-bth m-0">
+        <div class="email-area">
+          <h1>Stay Updated</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem repellat voluptate quasi aliquam est culpa iste vel maiores deleniti! Non corrupti dolor ad saepe dolores, molestiae inventore nihil possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum dolorum repellat omnis quasi adipisci laboriosam doloremque est labore, quisquam nam culpa aliquid ut optio quas deleniti quis distinctio corporis.</p>
+          <div class="email-bar">
+            <input type="text" placeholder="Enter your email here....." class="email-input"><button class="email-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="vendor-img">
+        <img src="img/ven10.jpg" alt="img">
+        <img src="img/ven12.png" alt="img">
+        <img src="img/ven11.png" alt="img">
+        <img src="img/ven13.jpg" alt="img">
+        <img src="img/ven5.png" alt="img">
+        <img src="img/ven15.png" alt="img">
+      </div>
+      <div class="vendor-img">
+        <img src="img/ven3.jpg" alt="img">
+        <img src="img/ven2.png" alt="img">
+        <img src="img/ven7.png" alt="img">
+        <img src="img/ven1.png" alt="img">
+        <img src="img/ven4.png" alt="img">
+        <img src="img/ven6.jpg" alt="img">
+      </div>
+      <div class="wrapper clr-bth m-0">
+        <div class="footer">
+          <div class="wid-25 m-right flt-lft">
+            <div class="logo">
+              <h1>
+                <span>E</span>
+                <span>Comm</span>
+              </h1>
+            </div>
+            <p class="footer-des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto delectus temporibus repellendus maiores accusamus saepe, dignissimos itaque vel atque aliquam voluptatum.
+            </p>
+            <ul class="footer-address">
+              <li><i class="fa fa-map-marker-alt"></i> 123 street,New York,USA </li>
+              <li><i class="fa fa-envelope"></i> info@example.com </li>
+              <li><i class="fa fa-phone"></i> +01 234 56789 </li>
+            </ul>
+          </div>
+          <div class="wid-25 m-top flt-lft links">
+            <h3>Qucik Links</h3>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fa fa-angle-right"></i> Home</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Shop</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> CheckOut</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Details</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Contact us</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> About us</a></li>
+            </ul>
+          </div>
+          <div class="wid-25 m-top flt-lft links">
+            <h3>Social media</h3>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i> FaceBook</a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+            </ul>
+          </div>
+          <div class="wid-25 m-top flt-lft sign-in">
+            <h1>Sign in</h1>
+            <input type="text" class="footer-input" placeholder="Enter your email....">
+            <input type="text" class="footer-input" placeholder="Enter your name....">
+            <button>Sign in</button>
+          </div>
+        </div>
+        <div class="copy-right">
+          <p><span class="CP"> &copy;</span><b>Zeetech Academy</b>. All rights reserved, by <b class="AS"> Amaan Sayed.</b></p>
+          <img src="img/payment.png" alt="">
+        </div>
+      </div>
+  </body>
+</html>

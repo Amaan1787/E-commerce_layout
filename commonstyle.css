@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.wrapper {
+    margin: 0 5%;
+}
+
+.m-0 {
+    margin: 0%;
+}
+
+.m-top {
+    margin-top: 3%;
+}
+
+.m-right {
+    margin-right: 7%;
+}
+
+.flt-lft {
+    float: left;
+}
+
+.wid-25 {
+    width: 25%;
+}
+
+.wid-33 {
+    width: 33.3%;
+    cursor: pointer;
+}
+
+.wid-50 {
+    width: 50%;
+}
+
+.wid-75 {
+    width: 75%;
+}
+
+.flx {
+    display: flex;
+}
+
+.cart-btn {
+    height: 35px;
+    width: 50px;
+    border: 1px solid grey;
+    background-color: #fff;
+    color: darkmagenta;
+    min-width: 40px;
+}
+
+.cart-btn span {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.clr-bth {
+    clear: both;
+}
+
+@media only screen and (max-width:992px) {
+    .wid-25,.wid-50,.wid-75,.wid-33{
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .flt-lft,.banner{
+        float: none;
+    }
+}
